@@ -1,5 +1,4 @@
 require_relative 'boot'
-config.serve_static_assets = true
 
 require 'rails/all'
 
