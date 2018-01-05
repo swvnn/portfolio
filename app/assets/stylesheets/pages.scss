@@ -60,27 +60,66 @@
 	text-align: center;
 }
 
+.modal-button {
+	float: right;
+	padding-right: 2%;
+	position: relative;
+}
+.modal-background1 {
+	background-image: url(image_path('icons.png'));
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.modal-background2 {
+	background-image: url(image_path('1.png'));
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.modal-background3 {
+	background-image: url(image_path('pexels-photo-753772.jpeg'));
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.modal-size {
+	width: 90%;
+	position: relative;
+//	left: -25%;
+}
+
+
+
+
+
+
+
+
+
 .carousel-jumbotron {
 	width: 100%;
 	margin: 0 auto;
 	background-size: cover;
+	background-color: #ffffff;
 }
 .carousel-container {
 	background-size: cover;
+	width: 0 auto;
 }
 
 
 .carousel-home1 {
-	background-image: url(image_path('pexels-photo-753772.jpg'));
+	background-image: url(image_path('1.png'));
     background-repeat: no-repeat;
-    width: 1px;
+    width: 20%;
 //    height: 5%;
 //	margin: 0 auto;
-	background-size: cover;
+	background-size: 100%;
 }
 
 .carousel-home2 {
-	background-image: url(image_path('pexels-photo-753772.jpg'));
+	background-image: url(image_path('icons.png'));
     background-repeat: no-repeat;
     width: 100%;
 //    height: 5%;
@@ -88,7 +127,7 @@
 }
 
 .carousel-home3 {
-	background-image: url(image_path('pexels-photo-753772.jpg'));
+	background-image: url(image_path('icons.png'));
     background-repeat: no-repeat;
     width: 100%;
 //    height: 5%;
