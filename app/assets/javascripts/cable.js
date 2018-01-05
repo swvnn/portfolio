@@ -5,9 +5,17 @@
 //= require_self
 //= require_tree ./channels
 
-(function() {
+(function(j$) {
   this.App || (this.App = {});
 
   App.cable = ActionCable.createConsumer();
 
 }).call(this);
+ 
+// var j$ = jQuery.noConflict();
+
+ // or
+
+ // (function(j$){
+
+ // })(jQuery);
